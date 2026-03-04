@@ -4,6 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rand = "0.8"
 windows-sys = { version = "0.52", features = [
     "Win32_UI_WindowsAndMessaging",   
     "Win32_UI_Input_KeyboardAndMouse",
@@ -14,4 +15,3 @@ windows-sys = { version = "0.52", features = [
     "Win32_System_Diagnostics_Debug",
     "Win32_Security",   
 ]}
-rand = "0.8"
